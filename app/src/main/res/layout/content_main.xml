@@ -4,17 +4,208 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_alignParentStart="false"
+    android:layout_alignParentEnd="false"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".MainActivity"
     tools:showIn="@layout/app_bar_main">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+	<LinearLayout
+        android:id="@+id/linLaySagEs"
+        android:layout_width="139dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/btnTTSinEng"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="188dp"
+            android:text="@string/btn_TTS_eng" />
+
+        <Button
+            android:id="@+id/btnTTSinDeu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            tools:layout_editor_absoluteX="44dp"
+            tools:layout_editor_absoluteY="132dp"
+            android:text="@string/btn_TTS_deu" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/inputTTS"
+        style="@android:style/Widget.AutoCompleteTextView"
+        android:layout_width="242dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:hint="@string/wasSollIchSagen"
+        android:inputType="textMultiLine|text|textAutoComplete"
+        android:selectAllOnFocus="true"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/linLaySagEs"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/linLaySagEs"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <LinearLayout
+        android:id="@+id/linLayJaNein"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linLaySagEs">
+
+        <Button
+            android:id="@+id/btnTTSja"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="@string/ja"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="159dp" />
+
+        <Button
+            android:id="@+id/btnTTSvielleicht"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="@string/vielleicht"/>
+
+        <Button
+            android:id="@+id/btnTTSnein"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="@string/nein" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linLayFrueherJetztSpaeter"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linLayJaNein">
+
+        <Button
+            android:id="@+id/btnTTSfrueher"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="159dp"
+            android:text="@string/frueher" />
+
+        <Button
+            android:id="@+id/btnTTSjetzt"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="@string/jetzt" />
+
+        <Button
+            android:id="@+id/btnTTSspaeter"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="@string/spaeter" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linLayBitteDanke"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linLayFrueherJetztSpaeter">
+
+        <Button
+            android:id="@+id/btnTTSbitte"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="159dp"
+            android:text="@string/bitte" />
+
+        <Button
+            android:id="@+id/btnTTSdanke"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="@string/danke" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linLayWieGehtsDir"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linLayBitteDanke">
+
+        <Button
+            android:id="@+id/btnTTSWieGehtsDir"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="159dp"
+            android:text="@string/wiegehtsdir" />
+
+        <Button
+            android:id="@+id/btnTTSpasstscho"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="@string/passtscho" />
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>

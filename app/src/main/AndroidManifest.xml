@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="de.maestro979546.example_navigation_drawer_activity">
+    package="de.maestro979546.MyPocketPC">
 
     <application
         android:allowBackup="true"

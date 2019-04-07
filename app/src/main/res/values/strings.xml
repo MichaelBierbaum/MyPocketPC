@@ -1,9 +1,22 @@
 <resources>
-    <string name="app_name">Example_Navigation_Drawer_Activity</string>
+    <string name="app_name">MyPocketPC</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">Michael Bierbaum</string>
+    <string name="nav_header_subtitle">programmiert Java</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+    <string name="btn_TTS_eng">say it in eng</string>
+    <string name="btn_TTS_deu">sag es in Deu</string>
+    <string name="wasSollIchSagen">Was soll ich sagen?</string>
+    <string name="ja">Ja</string>
+    <string name="vielleicht">vielleicht</string>
+    <string name="nein">nein</string>
+    <string name="frueher">früher</string>
+    <string name="jetzt">jetzt</string>
+    <string name="spaeter">später</string>
+    <string name="bitte">bitte</string>
+    <string name="danke">danke</string>
+    <string name="wiegehtsdir">Wie geht\'s Dir?</string>
+    <string name="passtscho">passt scho</string>
 </resources>
