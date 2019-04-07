@@ -1,4 +1,4 @@
-#Sun Apr 07 11:03:17 CEST 2019
+#Sun Apr 07 20:28:54 CEST 2019
 base.0=C\:\\Android\\AndroidStudioProjects\\MyPocketPC\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
 path.0=classes.dex
 renamed.0=classes.dex

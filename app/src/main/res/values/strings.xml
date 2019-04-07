@@ -19,4 +19,10 @@
     <string name="danke">danke</string>
     <string name="wiegehtsdir">Wie geht\'s Dir?</string>
     <string name="passtscho">passt scho</string>
+    <string name="nav_slideshow_title">TextToSpeech</string>
+    <string name="nav_gallery_title">Gallery</string>
+    <string name="nav_camera_title">Import</string>
+    <string name="nav_manage_title">Tools</string>
+    <string name="nav_share_title">Share</string>
+    <string name="nav_send_title">Send</string>
 </resources>

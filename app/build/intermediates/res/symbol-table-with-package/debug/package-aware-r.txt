@@ -1361,6 +1361,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+layout tts_layout
 menu activity_main_drawer
 menu main
 mipmap ic_launcher
@@ -1421,9 +1422,15 @@ string hide_bottom_view_on_scroll_behavior
 string ja
 string jetzt
 string mtrl_chip_close_icon_content_description
+string nav_camera_title
+string nav_gallery_title
 string nav_header_desc
 string nav_header_subtitle
 string nav_header_title
+string nav_manage_title
+string nav_send_title
+string nav_share_title
+string nav_slideshow_title
 string navigation_drawer_close
 string navigation_drawer_open
 string nein

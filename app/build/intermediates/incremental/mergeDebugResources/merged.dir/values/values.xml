@@ -590,9 +590,15 @@
     <string name="ja">Ja</string>
     <string name="jetzt">jetzt</string>
     <string name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
+    <string name="nav_camera_title">Import</string>
+    <string name="nav_gallery_title">Gallery</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="nav_header_subtitle">programmiert Java</string>
     <string name="nav_header_title">Michael Bierbaum</string>
+    <string name="nav_manage_title">Tools</string>
+    <string name="nav_send_title">Send</string>
+    <string name="nav_share_title">Share</string>
+    <string name="nav_slideshow_title">TextToSpeech</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="nein">nein</string>

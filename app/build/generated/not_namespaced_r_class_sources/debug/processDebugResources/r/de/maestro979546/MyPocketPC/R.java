@@ -5012,6 +5012,7 @@ public final class R {
     public static final int select_dialog_multichoice_material=0x7f0b0040;
     public static final int select_dialog_singlechoice_material=0x7f0b0041;
     public static final int support_simple_spinner_dropdown_item=0x7f0b0042;
+    public static final int tts_layout=0x7f0b0043;
   }
   public static final class menu {
     public static final int activity_main_drawer=0x7f0c0000;
@@ -5078,24 +5079,30 @@ public final class R {
     public static final int ja=0x7f0e0035;
     public static final int jetzt=0x7f0e0036;
     public static final int mtrl_chip_close_icon_content_description=0x7f0e0037;
-    public static final int nav_header_desc=0x7f0e0038;
-    public static final int nav_header_subtitle=0x7f0e0039;
-    public static final int nav_header_title=0x7f0e003a;
-    public static final int navigation_drawer_close=0x7f0e003b;
-    public static final int navigation_drawer_open=0x7f0e003c;
-    public static final int nein=0x7f0e003d;
-    public static final int passtscho=0x7f0e003e;
-    public static final int password_toggle_content_description=0x7f0e003f;
-    public static final int path_password_eye=0x7f0e0040;
-    public static final int path_password_eye_mask_strike_through=0x7f0e0041;
-    public static final int path_password_eye_mask_visible=0x7f0e0042;
-    public static final int path_password_strike_through=0x7f0e0043;
-    public static final int search_menu_title=0x7f0e0044;
-    public static final int spaeter=0x7f0e0045;
-    public static final int status_bar_notification_info_overflow=0x7f0e0046;
-    public static final int vielleicht=0x7f0e0047;
-    public static final int wasSollIchSagen=0x7f0e0048;
-    public static final int wiegehtsdir=0x7f0e0049;
+    public static final int nav_camera_title=0x7f0e0038;
+    public static final int nav_gallery_title=0x7f0e0039;
+    public static final int nav_header_desc=0x7f0e003a;
+    public static final int nav_header_subtitle=0x7f0e003b;
+    public static final int nav_header_title=0x7f0e003c;
+    public static final int nav_manage_title=0x7f0e003d;
+    public static final int nav_send_title=0x7f0e003e;
+    public static final int nav_share_title=0x7f0e003f;
+    public static final int nav_slideshow_title=0x7f0e0040;
+    public static final int navigation_drawer_close=0x7f0e0041;
+    public static final int navigation_drawer_open=0x7f0e0042;
+    public static final int nein=0x7f0e0043;
+    public static final int passtscho=0x7f0e0044;
+    public static final int password_toggle_content_description=0x7f0e0045;
+    public static final int path_password_eye=0x7f0e0046;
+    public static final int path_password_eye_mask_strike_through=0x7f0e0047;
+    public static final int path_password_eye_mask_visible=0x7f0e0048;
+    public static final int path_password_strike_through=0x7f0e0049;
+    public static final int search_menu_title=0x7f0e004a;
+    public static final int spaeter=0x7f0e004b;
+    public static final int status_bar_notification_info_overflow=0x7f0e004c;
+    public static final int vielleicht=0x7f0e004d;
+    public static final int wasSollIchSagen=0x7f0e004e;
+    public static final int wiegehtsdir=0x7f0e004f;
   }
   public static final class style {
     public static final int AlertDialog_AppCompat=0x7f0f0000;
